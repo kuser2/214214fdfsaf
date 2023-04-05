@@ -39,6 +39,12 @@ try:
     import discord
 except:
     import discord
+    
+try:
+    os.system('pip install colorfy')
+    from colorfy import color
+except:
+    from colorfy import color
 
 try:
     os.system('pip install pyPrivnote >nul && cls')
